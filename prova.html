@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Marco Coltellini</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="stile.css">
+  </head>
+  <body>
+    <section>
+      <div class="contenitore" id="marco">
+          <img src="immagini/x.svg" id="bottone" onclick="chiudimenu()">
+        <div class="header">
+           <img src="immagini/logo.svg">
+           <p> Marco </p>
+        </div>
+    <div class="menu">
+      <span> <a href="#About">About</a> </span>
+      <span> <a href="#pagina3">Photo</a> </span>
+      <span> <a href="#pagina4">Skills</a> </span>
+      <span> <a href="#pagina5">Contact me</a> </span>
+   </div>
+   <div class="social">
+     <a href="https://www.facebook.com/marco.b.coltellini" target="_blank"> <img src="immagini/facebook.svg" alt="facebook"> </a>
+     <a href="https://www.instagram.com/marco19917/"target="_blank"> <img src="immagini/instagram.svg" alt="instagram"> </a>
+     <a href="https://www.linkedin.com/in/marco-coltellini-1bab9a124/"target="_blank"> <img src="immagini/linkedin.svg" alt="linkedin"> </a>
+   </div>
+</div>
+<div class="pagina1">
+  <button id="bottoni" type="button" onclick="aprimenu()" name="bottone"> <img src="immagini/burger.svg"> </button>
+  <h1>Hi,</h1>
+  <h2>I'm <img src="immagini/logo.svg"> arco,</h2>
+  <h3> Web developer</h3>
+  <p> Photographer/Content creator </p>
+<a href="#pagina5"><button id="contattami" type="button" name="contattami"> Contact me! </button> </a>
+</div>
+</section>
+<section>
+  <div id="About" class="pagina2">
+  <div class="contenitore2" >
+    <h1> <em>About Me</em></h1>
+    </div>
+    <div class="sudime">
+      <p>Sono un programmatore, fotografo e content creatore italiano,
+      con una passione per il front-end. <br> Ho una spiccata dote di problem solving e mi piace affrontare ogni giorno nuove sfide. </p>
+    </div>
+    <div class="io">
+      <img src="immagini/io.jpg" alt="foto personale">
+</div>
+</div>
+</section>
+<section>
+  <div id="pagina3" class="pagina3">
+  <div class="miofoto">
+    <p> <em> My Photo </em></p>
+  </div>
+  <div class="photo">
+      <img src="foto/foto1.jpg">
+      <img src="foto/foto3.jpg">
+      <img src="foto/foto4.jpg">
+      <img src="foto/foto5.jpg">
+      <img src="foto/foto2.jpg">
+      <img src="foto/foto6.jpg">
+    </div>
+  </div>
+</section>
+<section>
+  <div id="pagina4" class="pagina4">
+  <div class="myskills">
+    <p> <em> My Skills</em></p>
+    </div>
+  <div class="skills">
+    <div class="photoshop">
+      <p>Photoshop</p>
+      <span></span>
+    </div>
+      <div class="front-end">
+        <p>Front-end</p>
+        <span></span>
+      </div>
+        <div class="back-end">
+          <p>Back-end</p>
+          <span></span>
+        </div>
+        <div class="video">
+          <p> Editing</p>
+          <span></span>
+        </div>
+  </div>
+  <div class="migliorare">
+    <p>Ho bisogno di migliorare!! <br> Ma non preoccuparti, sto studiando ogni giorno!</p>
+  </div>
+</div>
+</section>
+<section>
+  <div id="pagina5" class="pagina5">
+    <div class="chiamami">
+      <h1> <em>Contattami</em> </h1>
+      <p>Sono Interessato a lavorare a progetti di gruppo,
+         ma sono aperto a tutte le opportunità!!!</p>
+    </div>
+
+<form id="form" class="form" action="index.html" method="post">
+      <p>Nome</p>
+    <input class="immettinome" type="text" name="nome"> <br>
+    <p>E-Mail</p>
+    <input class="immettinome" type="email" name="mail"><br>
+    <p>Messaggio</p>
+    <input class="immettinome2" type="text" name="messagio">
+    <button id="invia" type="button" name="invia"> Invia </button>
+  </form>
+  <img src="foto/mappa.jpg" alt="mappa firenze">
+</section>
+  <script type="text/javascript">
+  function aprimenu() {
+    document.getElementById('marco').style.display = "flex";
+    document.getElementById('bottoni').style.display = "none";
+    document.getElementById('bottone').style.display = "block";
+    document.getElementById('form').style.display = "none";
+  }
+    function chiudimenu() {
+     document.getElementById('marco') .style.display = "none";
+     document.getElementById('bottoni') .style.display = "block";
+     document.getElementById('bottone') .style.display = "none";
+     document.getElementById('form').style.display = "block";
+  }
+</script>
+  </body>
+  </html>

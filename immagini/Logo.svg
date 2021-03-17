@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="291" height="291" viewBox="0 0 291 291">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 300px;
+        font-family: "Segoe Print";
+      }
+
+      .cls-1 {
+        fill: #ffac47;
+      }
+
+      .cls-2 {
+        fill: #2aaceb;
+      }
+    </style>
+  </defs>
+  <text id="M" class="cls-1" x="-7" y="241">M</text>
+  <text id="M-2" data-name="M" class="cls-2" x="16" y="239">M</text>
+</svg>

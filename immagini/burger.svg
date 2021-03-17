@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f4;
+      }
+    </style>
+  </defs>
+  <rect id="Rettangolo_1" data-name="Rettangolo 1" class="cls-1" x="4" y="22" width="91" height="17"/>
+  <rect id="Rettangolo_1_copia" data-name="Rettangolo 1 copia" class="cls-1" x="4" y="44" width="91" height="17"/>
+  <rect id="Rettangolo_1_copia_2" data-name="Rettangolo 1 copia 2" class="cls-1" x="4" y="66" width="91" height="17"/>
+</svg>

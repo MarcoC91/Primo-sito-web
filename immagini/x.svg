@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="264" viewBox="0 0 264 264">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rettangolo_1" data-name="Rettangolo 1" class="cls-1" d="M15.723,224.283L217.955,22.051l11.314,11.314L27.036,235.6Z"/>
+  <path id="Rettangolo_1_copia" data-name="Rettangolo 1 copia" class="cls-1" d="M41.878,22.185L244.119,224.409l-11.313,11.314L30.565,33.5Z"/>
+</svg>
